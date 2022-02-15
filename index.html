@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+  <h1>FLEXBOX</h1>
+
+  <div id="container">
+    <div id="leftSide">
+      <div id="box_one" class="box"><span>1</span></div>
+      <div class="box"><span>2</span></div>
+      <div class="box"><span>3</span></div>
+    </div>
+    <div id="rigthSide">
+
+      <form id="options">
+
+        <p>Flex-direction</p>
+
+        <input id="op1" type="radio" name="flexbox" value="row">row<br>
+        <input id="op2" type="radio" name="flexbox" value="row-reverse">row-reverse<br>
+        <input id="op3" type="radio" name="flexbox" value="column">column<br>
+        <input id="op4" type="radio" name="flexbox" value="column-reverse">column-reverse<br>
+
+        <br>
+
+        <p>Flex-wrap</p>
+
+        <input id="op10" type="radio" name="flexbox" value="nowrap">nowrap<br>
+        <input id="op11" type="radio" name="flexbox" value="wrap">wrap<br>
+        <input id="op12" type="radio" name="flexbox" value="wrap-reverse">wrap-reverse<br>
+
+        <br>
+
+        <p>Justify-Content</p>
+
+        <input id="op5" type="radio" name="flexbox" value="flex-start">flex-start<br>
+        <input id="op6" type="radio" name="flexbox" value="center">center<br>
+        <input id="op7" type="radio" name="flexbox" value="flex-end">flex-end<br>
+
+        <input id="op8" type="radio" name="flexbox" value="space-between">space-between<br>
+        <input id="op9" type="radio" name="flexbox" value="space-around">space-around<br>
+
+        <br>
+
+        <p>Align-Content</p>
+
+        <input id="op13" type="radio" name="flexbox" value="stretch">stretch<br>
+        <input id="op14" type="radio" name="flexbox" value="flex-start">flex-start<br>
+        <input id="op15" type="radio" name="flexbox" value="center">center<br>
+
+        <input id="op16" type="radio" name="flexbox" value="flex-end">flex-end<br>
+        <input id="op17" type="radio" name="flexbox" value="space-between">space-between<br>
+        <input id="op18" type="radio" name="flexbox" value="space-around">space-around<br>
+        <input id="op19" type="radio" name="flexbox" value="space-evenly">space-evenly<br>
+
+
+        <p>Align-Items</p>
+
+        <input id="op20" type="radio" name="flexbox" value="stretch">stretch<br>
+        <input id="op21" type="radio" name="flexbox" value="baseline">baseline<br>
+        <input id="op22" type="radio" name="flexbox" value="flex-start">flex-start<br>
+
+        <input id="op23" type="radio" name="flexbox" value="center">center<br>
+        <input id="op24" type="radio" name="flexbox" value="flex-end">flex-end<br>
+
+        <p>Align-self</p>
+
+        <input id="op25" type="radio" name="flexbox" value="stretch">stretch<br>
+        <input id="op26" type="radio" name="flexbox" value="baseline">baseline<br>
+        <input id="op27" type="radio" name="flexbox" value="flex-start">flex-start<br>
+
+        <input id="op28" type="radio" name="flexbox" value="center">center<br>
+        <input id="op29" type="radio" name="flexbox" value="flex-end">flex-end<br>
+
+      </form>
+
+
+    </div>
+
+    <form>
+      <button type="button" onclick="display()">
+        Apply
+      </button>
+    </form>
+  </div>
+
+  <div id="containerInfo">
+    <div id="textInfo" class="text"></div>
+    <div id="textInfoSec" class="text"></div>
+  </div>
+
+
+</body>
+
+</html>

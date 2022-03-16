@@ -138,7 +138,7 @@ function display() {
 
   for (let i = 0; i < options.length; i++) {
     if (options[i].checked) {
-      alert("You choosed" + options[i].id);
+      alert("You choosed " + options[i].id);
         switch (options[i].id) {
           case options[i].id:
             textInfo.innerHTML = optionsObj[options[i].id].info;

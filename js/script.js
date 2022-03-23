@@ -1,31 +1,35 @@
-function display() {
-
-  const box = document.getElementById("leftSide");
+const box = document.getElementById("leftSide");
 
   let textInfo = document.getElementById("textInfo");
   let textInfoSec = document.getElementById("textInfoSec");
 
-  const options = document.getElementById("options").elements;
   
   const data = [
   		{
-      	 estilo: box.className = "row",
+      	 //estilo: box.className = "row",
       info: 'The <span class="highlightText">flex-direction</span> property defines in which direction the container wants to stack the flex items.',
       subinfo: 'The <span class="highlightText">row</span> value stacks the flex items horizontally (from left to right)'
       },
       
       {
-        estilo: box.className = "rowRvrs",
+        // estilo: box.className = "rowRvrs",
         info: 'The <span class="highlightText">flex-direction</span> property defines in which direction the container wants to stack the flex items.',
         subinfo: 'The <span class="highlightText">row-reverse</span> value stacks the flex items horizontally (but from right to left)'
       },
 
       {
-        estilo: box.className = "column",
+        // estilo: box.className = "column",
         info: 'The <span class="highlightText">flex-direction</span> property defines in which direction the container wants to stack the flex items.',
         subinfo: 'The <span class="highlightText">column</span> value stacks the flex items vertically (from top to bottom)'
       }
   ];
+
+
+
+function display(data) {
+
+const options = document.getElementById("options").elements;
+  
 
   /* FLEX-DIRECTION */
 
